@@ -15,7 +15,7 @@ function Projects() {
     {
       id: 2,
       title: "파이썬 백엔드",
-      period: "2023년 10월 - 12월",
+      period: "2023년 10-12월",
       description: "Python과 Flask를 이용하여 로그인 할 수 있는 간단한 백엔드 시스템을 구현해봤습니다.",
       technologies: ["Python", "Flask", "Postman"],
       role: "백엔드 개발",
@@ -24,7 +24,7 @@ function Projects() {
     {
       id: 3,
       title: "SNS 커뮤니티 사이트",
-      period: "2025년 3월 - 5월",
+      period: "2025년 3-5월",
       description: "로그인, 채팅, todo리스트 등의 기능을 사용할 수 있는 웹사이트를 개발했습니다. ",
       technologies: ["Flutter"],
       role: "개발자",
@@ -33,7 +33,7 @@ function Projects() {
     {
       id: 4,
       title: "위키 사이트",
-      period: "2024년 11월 - 12월",
+      period: "2024년 11-12월",
       description: "MongoDB Atlas와 React, Express를 사용하여 간단한 위키 사이트를 만들었습니다",
       technologies: ["MongoDB Atlas", "React", "Express"],
       role: "개발자",
@@ -42,7 +42,7 @@ function Projects() {
     {
       id: 5,
       title: "리액트 기초",
-      period: "2024년 3월 - 6월",
+      period: "2024년 3-6월",
       description: "리액트의 기본적인 기능을 사용했던 프로젝트입니다.",
       technologies: ["React", "HTML", "CSS", "JavaScript"],
       role: "개발자",
