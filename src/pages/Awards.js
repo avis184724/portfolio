@@ -70,7 +70,8 @@ function Awards() {
                   border: 'none',
                   borderRadius: '5px',
                   cursor: 'pointer',
-                  transition: 'background-color 0.2s'
+                  transition: 'background-color 0.2s',
+                  fontWeight: 'bold'
                 }}
                 onMouseOver={(e) => e.target.style.backgroundColor = '#219150'}
                 onMouseOut={(e) => e.target.style.backgroundColor = '#27ae60'}

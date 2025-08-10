@@ -2,51 +2,62 @@ import React from 'react';
 
 function Projects() {
   const projects = [
+    
     {
       id: 1,
       title: "포트폴리오 웹사이트",
-      period: "2025년 7-8월",
+      period: "2025년 8월",
       description: "React를 사용하여 만든 개인 포트폴리오 웹사이트입니다. 반응형 디자인과 모던한 UI를 적용했습니다.",
       technologies: ["React", "JavaScript", "CSS", "HTML"],
       role: "개발자",
-      github: "https://github.com/avis184724/portfolio",
+      site: "https://github.com/avis184724/portfolio",
       demo: "https://portfolio-4ftq.vercel.app/"
     },
     {
       id: 2,
+      title: "K-Tech 경진대회",
+      period: "2025년 7-8월",
+      description: "Flutter를 이용해 통학버스 앱을 개발하고 K-Tech 경진대회에 참가했습니다. 사용자 맞춤 UI와 노선도 기능을 구현했습니다.",
+      technologies: ["Flutter", "supabase", "VS CODE"],
+      role: "프론트엔드 개발자",
+      site: "https://www.notion.so/1f190ff24855804f99f9e9fa16031706",
+      demo: "https://chungju-bus.vercel.app/"
+    },
+    {
+      id: 3,
       title: "파이썬 백엔드",
       period: "2023년 10-12월",
       description: "Python과 Flask를 이용하여 로그인 할 수 있는 간단한 백엔드 시스템을 구현해봤습니다.",
       technologies: ["Python", "Flask", "Postman"],
       role: "백엔드 개발",
-      github: "https://github.com/avis184724/Python_Backend"
+      satisfiesite: "https://github.com/avis184724/Python_Backend"
     },
     {
-      id: 3,
+      id: 4,
       title: "SNS 커뮤니티 사이트",
       period: "2025년 3-5월",
       description: "로그인, 채팅, todo리스트 등의 기능을 사용할 수 있는 웹사이트를 개발했습니다. ",
       technologies: ["Flutter"],
       role: "개발자",
-      github: "https://github.com/avis184724/flutter_project",
+      site: "https://github.com/avis184724/flutter_project",
     },
     {
-      id: 4,
+      id: 5,
       title: "위키 사이트",
       period: "2024년 11-12월",
       description: "MongoDB Atlas와 React, Express를 사용하여 간단한 위키 사이트를 만들었습니다",
       technologies: ["MongoDB Atlas", "React", "Express"],
       role: "개발자",
-      github: "https://github.com/avis184724/wiki_frontend"
+      site: "https://github.com/avis184724/wiki_frontend"
     },
     {
-      id: 5,
+      id: 6,
       title: "리액트 기초",
       period: "2024년 3-6월",
       description: "리액트의 기본적인 기능을 사용했던 프로젝트입니다.",
       technologies: ["React", "HTML", "CSS", "JavaScript"],
       role: "개발자",
-      github: "https://github.com/avis184724/react-study"
+      site: "https://github.com/avis184724/react-study"
     }
   ];
 
@@ -102,19 +113,20 @@ function Projects() {
               
               <div style={{ display: 'flex', gap: '1rem' }}>
                 <a 
-                  href={project.github} 
+                  href={project.site} 
                   target="_blank" 
                   rel="noopener noreferrer"
                   style={{
-                    backgroundColor: '#2c3e50',
+                    backgroundColor: '#103b67ff',
                     color: 'white',
                     padding: '0.5rem 1rem',
                     borderRadius: '4px',
                     textDecoration: 'none',
-                    fontSize: '0.9rem'
+                    fontSize: '0.9rem',
+                    fontWeight: 'bold'
                   }}
                 >
-                  GitHub
+                  Site
                 </a>
                 {project.demo && (
                 <a 
@@ -127,7 +139,8 @@ function Projects() {
                     padding: '0.5rem 1rem',
                     borderRadius: '4px',
                     textDecoration: 'none',
-                    fontSize: '0.9rem'
+                    fontSize: '0.9rem',
+                    fontWeight: 'bold'
                   }}
                 >
                   Live Demo
