@@ -7,7 +7,7 @@ function Header() {
       <nav className="nav">
         <div className="logo">
           <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>
-            포트폴리오
+            이재황 포트폴리오
           </Link>
         </div>
         <ul className="nav-links">

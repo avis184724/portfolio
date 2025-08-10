@@ -9,38 +9,44 @@ function Projects() {
       description: "React를 사용하여 만든 개인 포트폴리오 웹사이트입니다. 반응형 디자인과 모던한 UI를 적용했습니다.",
       technologies: ["React", "JavaScript", "CSS", "HTML"],
       role: "개발자",
-      github: "https://github.com/avis184724/Python_Backend",
-      demo: "https://your-portfolio.com"
+      github: "https://github.com/avis184724/portfolio",
+      demo: "https://portfolio-4ftq.vercel.app/"
     },
     {
       id: 2,
-      title: "쇼핑몰 웹사이트",
+      title: "파이썬 백엔드",
       period: "2023년 10월 - 12월",
-      description: "사용자가 상품을 검색하고 주문할 수 있는 온라인 쇼핑몰입니다. 결제 시스템과 관리자 페이지를 포함합니다.",
-      technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-      role: "프론트엔드 개발",
-      github: "https://github.com/yourusername/shopping-mall",
-      demo: "https://shopping-mall-demo.com"
+      description: "Python과 Flask를 이용하여 로그인 할 수 있는 간단한 백엔드 시스템을 구현해봤습니다.",
+      technologies: ["Python", "Flask", "Postman"],
+      role: "백엔드 개발",
+      github: "https://github.com/avis184724/Python_Backend"
     },
     {
       id: 3,
-      title: "할일 관리 앱",
-      period: "2023년 8월 - 9월",
-      description: "사용자가 할일을 추가, 수정, 삭제할 수 있는 간단한 할일 관리 애플리케이션입니다.",
-      technologies: ["React", "LocalStorage", "CSS"],
+      title: "SNS 커뮤니티 사이트",
+      period: "2025년 3월 - 5월",
+      description: "로그인, 채팅, todo리스트 등의 기능을 사용할 수 있는 웹사이트를 개발했습니다. ",
+      technologies: ["Flutter"],
       role: "개발자",
-      github: "https://github.com/yourusername/todo-app",
-      demo: "https://todo-app-demo.com"
+      github: "https://github.com/avis184724/flutter_project",
     },
     {
       id: 4,
-      title: "날씨 정보 앱",
-      period: "2023년 6월 - 7월",
-      description: "OpenWeatherMap API를 사용하여 현재 날씨와 예보를 보여주는 웹 애플리케이션입니다.",
-      technologies: ["JavaScript", "HTML", "CSS", "API"],
+      title: "위키 사이트",
+      period: "2024년 11월 - 12월",
+      description: "MongoDB Atlas와 React, Express를 사용하여 간단한 위키 사이트를 만들었습니다",
+      technologies: ["MongoDB Atlas", "React", "Express"],
       role: "개발자",
-      github: "https://github.com/yourusername/weather-app",
-      demo: "https://weather-app-demo.com"
+      github: "https://github.com/avis184724/wiki_frontend"
+    },
+    {
+      id: 5,
+      title: "리액트 기초",
+      period: "2024년 3월 - 6월",
+      description: "리액트의 기본적인 기능을 사용했던 프로젝트입니다.",
+      technologies: ["React", "HTML", "CSS", "JavaScript"],
+      role: "개발자",
+      github: "https://github.com/avis184724/react-study"
     }
   ];
 
