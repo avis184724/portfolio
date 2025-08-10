@@ -116,6 +116,7 @@ function Projects() {
                 >
                   GitHub
                 </a>
+                {project.demo && (
                 <a 
                   href={project.demo} 
                   target="_blank" 
@@ -130,7 +131,7 @@ function Projects() {
                   }}
                 >
                   Live Demo
-                </a>
+                </a>)}
               </div>
             </div>
           ))}
