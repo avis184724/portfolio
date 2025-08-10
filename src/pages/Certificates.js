@@ -24,7 +24,7 @@ function Certificates() {
       id: 4,
       name: "ITQ (한글, 엑셀)",
       organization: "한국생산성본부",
-      date: "2023 6월"
+      date: "2023년 6월"
     }
   ];
 
