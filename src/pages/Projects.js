@@ -52,6 +52,15 @@ function Projects() {
     },
     {
       id: 6,
+      title: "Figma 디자인",
+      period: "2024년 7월",
+      description: "Figma를 사용하여 카카오톡의 UI/UX를 모방한 디자인을 제작했습니다.",
+      technologies: ["Figma"],
+      role: "디자이너",
+      demo: "https://www.figma.com/proto/CB2OAlgksNlFycQguGgnue/Untitled?node-id=327-1902&starting-point-node-id=435%3A698"
+    },
+    {
+      id: 7,
       title: "리액트 기초",
       period: "2024년 3-6월",
       description: "리액트의 기본적인 기능을 사용했던 프로젝트입니다.",
@@ -112,6 +121,7 @@ function Projects() {
               </div>
               
               <div style={{ display: 'flex', gap: '1rem' }}>
+                {project.site && (
                 <a 
                   href={project.site} 
                   target="_blank" 
@@ -127,7 +137,7 @@ function Projects() {
                   }}
                 >
                   Site
-                </a>
+                </a>)}
                 {project.demo && (
                 <a 
                   href={project.demo} 
