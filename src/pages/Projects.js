@@ -30,7 +30,8 @@ function Projects() {
       description: "Python과 Flask를 이용하여 로그인 할 수 있는 간단한 백엔드 시스템을 구현해봤습니다.",
       technologies: ["Python", "Flask", "Postman"],
       role: "백엔드 개발",
-      satisfiesite: "https://github.com/avis184724/Python_Backend"
+      satisfiesite: "https://github.com/avis184724/Python_Backend",
+      site: "https://www.github.com/avis184724/Python_Backend",
     },
     {
       id: 4,
