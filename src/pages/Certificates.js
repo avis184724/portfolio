@@ -18,13 +18,13 @@ function Certificates() {
       id: 3,
       name: "컴퓨터활용능력 2급",
       organization: "대한상공회의소",
-      date: "2023년 6월"
+      date: "2024년 2월"
     },
     {
       id: 4,
-      name: "COS PRO 2급",
-      organization: "YBM",
-      date: "2025년 1월"
+      name: "ITQ (한글, 엑셀)",
+      organization: "한국생산성본부",
+      date: "2023 6월"
     }
   ];
 
