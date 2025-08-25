@@ -20,7 +20,7 @@ function Awards() {
       id: 3,
       title: "동상",
       organization: "충북컴퓨터꿈나무축제 피지컬 컴퓨팅",
-      date: "2023년 6월",
+      date: "2024년 11월",
       description: "학업 성적 우수로 우수학생상을 수상했습니다.",
       image: "/images/award3.jpg"
     }
