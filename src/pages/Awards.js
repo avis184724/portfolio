@@ -22,7 +22,7 @@ function Awards() {
       id: 3,
       title: "동상",
       organization: "충북컴퓨터꿈나무축제 피지컬 컴퓨팅",
-      date: "2023년 6월",
+      date: "2024년 11월",
       image: "/images/award3.jpg",
       category: "교외"
     },
